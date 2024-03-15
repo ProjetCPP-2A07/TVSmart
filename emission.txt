@@ -1,0 +1,20 @@
+emission
+pk_id_emission
+date
+durée
+fk_id_studio
+fk_id_employée
+fk_id_sponsor
+Remarque : (pk : premier key , fk ; foreign key)
+
+fonctionalité
+crud des emission
+trier les emission par leur date
+exporter les listes des emission en fichier pdf
+effuectuer les stats des emission
+Historique : chaque admin lors de l ajoute ou la suppression d une emission , cette action aura sauvgarder dans une fichier txt 
+
+
+
+partage l affiche de lemission sur le page fb de la chaine
+3 buttons (more,update,delete)  sous chaque img de emission
