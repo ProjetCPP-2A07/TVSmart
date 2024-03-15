@@ -1,0 +1,12 @@
+INPUT(
+./debug\addstudio.o
+./debug\connection.o
+./debug\gs_studio.o
+./debug\main.o
+./debug\mainwindow.o
+./debug\updatestudios.o
+./debug\qrc_res.o
+./debug\moc_addstudio.o
+./debug\moc_mainwindow.o
+./debug\moc_updatestudios.o
+);

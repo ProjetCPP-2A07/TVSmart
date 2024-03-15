@@ -1,0 +1,12 @@
+INPUT(
+./release\addstudio.o
+./release\connection.o
+./release\gs_studio.o
+./release\main.o
+./release\mainwindow.o
+./release\updatestudios.o
+./release\qrc_res.o
+./release\moc_addstudio.o
+./release\moc_mainwindow.o
+./release\moc_updatestudios.o
+);
