@@ -1,0 +1,12 @@
+INPUT(
+./release\connection.o
+./release\emission.o
+./release\employe.o
+./release\gs_studio.o
+./release\main.o
+./release\mainwindow.o
+./release\spectator.o
+./release\sponsor.o
+./release\qrc_res.o
+./release\moc_mainwindow.o
+);

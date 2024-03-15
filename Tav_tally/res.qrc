@@ -1,0 +1,57 @@
+<RCC>
+    <qresource prefix="/new/prefix1"/>
+    <qresource prefix="/">
+        <file>../thead.png</file>
+        <file>../Sign In (1).png</file>
+        <file>../Trash_no.png</file>
+        <file>../pen.png</file>
+        <file>../em.png</file>
+        <file>../emm.png</file>
+        <file>../home.png</file>
+        <file>../spectateur.png</file>
+        <file>../spon.png</file>
+        <file>../stidio.png</file>
+        <file>../scroller.png</file>
+        <file>../Loupe.png</file>
+        <file>../Studios.png</file>
+        <file>../pen 1.png</file>
+        <file>../trash.png</file>
+        <file>../log_out.png</file>
+        <file>../Solid_white.png</file>
+        <file>../Tv_tally_mtarfeskhir 1.png</file>
+        <file>../pen2.png</file>
+        <file>../Trash2.png</file>
+        <file>../backg.png</file>
+        <file>../dar.png</file>
+        <file>../Rectangle 1.png</file>
+        <file>../aaa.png</file>
+        <file>../ajouter spon.png</file>
+        <file>../baaak.png</file>
+        <file>../backkk.png</file>
+        <file>../Btn1.png</file>
+        <file>../chercher.png</file>
+        <file>../chercher1.png</file>
+        <file>../emi.png</file>
+        <file>../Form.png</file>
+        <file>../Form1.png</file>
+        <file>../klam.png</file>
+        <file>../modif.png</file>
+        <file>../poubelle.png</file>
+        <file>../recii.png</file>
+        <file>../ref.png</file>
+        <file>../refrech.png</file>
+        <file>../specc.png</file>
+        <file>../sponn.png</file>
+        <file>../stu.png</file>
+        <file>../th (1).png</file>
+        <file>../th (2).png</file>
+        <file>../th (3).png</file>
+        <file>../th.png</file>
+        <file>../ajout_emission.png</file>
+        <file>../emission.png</file>
+        <file>../Loupe1.png</file>
+        <file>../pen1.png</file>
+        <file>../Sign In1.png</file>
+        <file>../trash1.png</file>
+    </qresource>
+</RCC>
