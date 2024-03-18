@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/resourcefile">
+        <file>ajoutspec.png</file>
+        <file>sidebar.png</file>
+        <file>Rectangle 2.png</file>
+        <file>pen 1.png</file>
+        <file>trash 1.png</file>
+        <file>Tv_tally_white 1.png</file>
+        <file>Spectateurs.png</file>
+        <file>ajout.png</file>
+        <file>modif.png</file>
+        <file>Btnajout.png</file>
+        <file>Btnmodifier.png</file>
+        <file>search-16.png</file>
+        <file>search-32.png</file>
+    </qresource>
+</RCC>
