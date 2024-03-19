@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="Listespec">
      <widget class="QLabel" name="label">
@@ -104,40 +104,52 @@ QHeaderView::section
      <widget class="QPushButton" name="BoutonTrier">
       <property name="geometry">
        <rect>
-        <x>290</x>
-        <y>90</y>
-        <width>141</width>
+        <x>310</x>
+        <y>80</y>
+        <width>41</width>
         <height>29</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/resourcefile/numerical-sorting-48.png);
+border:none;</string>
+      </property>
       <property name="text">
-       <string>Trier (Age croissant)</string>
+       <string/>
       </property>
      </widget>
      <widget class="QPushButton" name="pb_PDF">
       <property name="geometry">
        <rect>
-        <x>450</x>
-        <y>90</y>
+        <x>380</x>
+        <y>80</y>
         <width>83</width>
         <height>29</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/resourcefile/pdf-48.png);
+border:none;</string>
+      </property>
       <property name="text">
-       <string>PDF</string>
+       <string/>
       </property>
      </widget>
      <widget class="QPushButton" name="pb_statistique">
       <property name="geometry">
        <rect>
-        <x>560</x>
-        <y>90</y>
-        <width>83</width>
+        <x>490</x>
+        <y>80</y>
+        <width>61</width>
         <height>29</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/resourcefile/statistics-48.png);
+border:none;</string>
+      </property>
       <property name="text">
-       <string>Statistiques</string>
+       <string/>
       </property>
      </widget>
      <widget class="QPushButton" name="pb_gotomodifier">
@@ -386,10 +398,10 @@ border:none;</string>
      <widget class="QPushButton" name="pb_ajouter_2">
       <property name="geometry">
        <rect>
-        <x>560</x>
+        <x>580</x>
         <y>750</y>
-        <width>361</width>
-        <height>51</height>
+        <width>331</width>
+        <height>41</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -426,27 +438,35 @@ border:none;</string>
      <widget class="QPushButton" name="BoutonModifier_2">
       <property name="geometry">
        <rect>
-        <x>700</x>
-        <y>810</y>
-        <width>83</width>
-        <height>29</height>
+        <x>580</x>
+        <y>800</y>
+        <width>331</width>
+        <height>41</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/resourcefile/Btnmodifier.png);
+border:none;</string>
+      </property>
       <property name="text">
-       <string>PushButton</string>
+       <string/>
       </property>
      </widget>
      <widget class="QPushButton" name="retour">
       <property name="geometry">
        <rect>
         <x>30</x>
-        <y>20</y>
-        <width>131</width>
+        <y>30</y>
+        <width>51</width>
         <height>29</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/resourcefile/arrow-97-48.png);
+border:none;</string>
+      </property>
       <property name="text">
-       <string>Retour à la liste</string>
+       <string/>
       </property>
      </widget>
     </widget>

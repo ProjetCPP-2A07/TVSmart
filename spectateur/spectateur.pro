@@ -29,3 +29,9 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     recc.qrc
+
+DISTFILES += \
+    arrow-97-48.png \
+    numerical-sorting-48.png \
+    pdf-48.png \
+    statistics-48.png

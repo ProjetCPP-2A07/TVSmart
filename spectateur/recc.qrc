@@ -13,5 +13,9 @@
         <file>Btnmodifier.png</file>
         <file>search-16.png</file>
         <file>search-32.png</file>
+        <file>arrow-97-48.png</file>
+        <file>numerical-sorting-48.png</file>
+        <file>pdf-48.png</file>
+        <file>statistics-48.png</file>
     </qresource>
 </RCC>
