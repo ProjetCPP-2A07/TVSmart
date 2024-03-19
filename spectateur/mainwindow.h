@@ -40,6 +40,8 @@ private slots:
     void on_pb_ajouter_2_clicked();
 
     void on_retour_clicked();
+    void on_QR_clicked();
+
 
 private:
     Ui::MainWindow *ui;
@@ -47,6 +49,7 @@ private:
     Spectator S;    static const int ID_COLUMN_INDEX = 0;
     int selected_service =-1;
     QStackedWidget *stackedWidget;
+
 };
 
 #endif // MAINWINDOW_H

@@ -1,4 +1,4 @@
-QT       += core gui sql printsupport charts network serialport
+QT       += core gui sql printsupport charts network serialport svg
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -12,11 +12,17 @@ SOURCES += \
     connection.cpp \
     main.cpp \
     mainwindow.cpp \
+    qrcode.cpp \
+    qrcodedemo.cpp \
+    qrcodeworks.cpp \
+    qrwidget.cpp \
     spectator.cpp
 
 HEADERS += \
     connection.h \
     mainwindow.h \
+    qrcode.h \
+    qrwidget.h \
     spectator.h
 
 FORMS += \

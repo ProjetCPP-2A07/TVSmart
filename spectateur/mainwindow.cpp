@@ -36,6 +36,14 @@
 #include <QTextDocument>
 #include <QPrinter>
 #include <QFileDialog>
+#include <iostream>
+#include <fstream>
+#include <QtSvg/QSvgRenderer>
+#include<QDirModel>
+#include "qrcode.h"
+#include <QPainter>
+using qrcodegen::QrCode;
+using qrcodegen::QrSegment;
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -48,6 +56,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->BoutonSupprimer_2, SIGNAL(clicked()), this, SLOT(handleBoutonSupprimer2Clicked()));
     connect(ui->Ajouter_2, &QPushButton::clicked, this, &MainWindow::on_Ajouter_2_clicked);
     connect(ui->retour, &QPushButton::clicked, this, &MainWindow::on_retour_clicked);
+
 
 
     ui->le_id_2->setValidator( new QIntValidator(0, 99999, this));
@@ -374,5 +383,29 @@ void MainWindow::on_retour_clicked()
     ui->stackedWidget->setCurrentIndex(0);
 
 
+}
+
+void MainWindow::on_QR_clicked()
+{
+    if(ui->tableView_2->currentIndex().row()==-1)
+        QMessageBox::information(nullptr, QObject::tr("Suppression"),
+                                 QObject::tr("Veuillez Choisir un identifiant.\n"
+                                             "Click Ok to exit."), QMessageBox::Ok);
+    else
+    {
+
+        int le_id=ui->tableView_2->model()->data(ui->tableView_2->model()->index(ui->tableView_2->currentIndex().row(),0)).toInt();
+        const QrCode qr = QrCode::encodeText(std::to_string(le_id).c_str(), QrCode::Ecc::LOW);
+        std::ofstream myfile;
+        myfile.open ("qrcode.svg") ;
+        myfile << qr.toSvgString(1);
+        myfile.close();
+        QPixmap pix( QSize(90, 90) );
+        QPainter pixPainter( &pix );
+        QSvgRenderer svgRenderer(QString("qrcode.svg"));
+        svgRenderer.render( &pixPainter );
+        ui->QRCODE_3->setPixmap(pix);
+
+    }
 }
 
